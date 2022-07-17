@@ -1,0 +1,4 @@
+import pymango
+client = pymongo.MongoClient("mongodb+srv://dsgigs001:P54ihe@001@cluster0.vluv7.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+print(db)
